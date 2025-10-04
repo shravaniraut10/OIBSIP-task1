@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Reservation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <h1>Welcome to Paradise Hotel</h1>
+    <p>Book your perfect stay in just a few clicks</p>
+    <a href="#booking" class="btn">Book Now</a>
+  </header>
+
+  <section>
+    <h2>Why Choose Us?</h2>
+    <div class="features">
+      <div class="card">🏊 Swimming Pool</div>
+      <div class="card">🍽️ Free Breakfast</div>
+      <div class="card">🚖 Airport Pickup</div>
+      <div class="card">📶 Free Wi-Fi</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Our Rooms</h2>
+    <div class="rooms">
+      <div class="card">
+        <img src="standard room.jpg" alt="Room">
+        <h3>Standard Room</h3>
+        <p>₹ 4,999 / Night</p>
+        <a href="#booking" class="btn">Reserve</a>
+      </div>
+      <div class="card">
+        <img src="deluxe room.jpg" alt="Room">
+        <h3>Deluxe Room</h3>
+        <p>₹ 8,999 / Night</p>
+        <a href="#booking" class="btn">Reserve</a>
+      </div>
+      <div class="card">
+        <img src="suite-room.webp"alt="Room">
+        <h3>Suite</h3>
+        <p>₹ 14,999 / Night</p>
+        <a href="#booking" class="btn">Reserve</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="booking">
+    <h2>Reserve Your Room</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="date" required>
+      <input type="date" required>
+      <input type="number" name="guests" placeholder="Number of Guests" min="1" max="10" required>
+
+      <select required>
+        <option value="">Select Room Type</option>
+         <option>Standard Room - ₹ 4,999</option>
+        <option>Deluxe Room - ₹ 8,999</option>
+        <option>Suite - ₹ 14,999</option>
+      </select>
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>What Our Guests Say</h2>
+    <div class="features">
+      <div class="card">⭐️⭐️⭐️⭐️⭐️ <br> "Amazing experience!"</div>
+      <div class="card">⭐️⭐️⭐️⭐️ <br> "Beautiful rooms and great service."</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>📍 Paradise Hotel, Pune, India | 📞 +91 12345 67890 | ✉ info@paradisehotel.com</p>
+    <p>Made with ❤️ by Shravani</p>
+  </footer>
+
+</body>
+</html>
